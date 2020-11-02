@@ -57,9 +57,9 @@ app.post("/", function(req, res){
       res.sendFile(__dirname + "/failure.html");
     }
 
-    response.on("data", function(event) {
-      console.log(JSON.parse(event));
-    });
+    // response.on("data", function(event) {
+    //   console.log(JSON.parse(event));
+    // });
   });
 
   request.on("error", function(event) {
