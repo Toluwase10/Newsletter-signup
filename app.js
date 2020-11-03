@@ -67,7 +67,7 @@ app.post("/", function(req, res){
   })
 
   // write data to request body
-  request.write(jsonData);
+  // request.write(jsonData);
   request.end();
 });
 
