@@ -40,7 +40,7 @@ app.post("/", function(req, res){
 
   //convert javascript object in the constant data to a JSON string
   const jsonData = JSON.stringify(data);
-  const url = "https://us2.api.mailchimp.com/3.0/lists/7f0da30a57";
+  const url = "https://us2.api.mailchimp.com/3.0/lists/xxxxxxxxx";
   const options = {
     method: "POST",
     headers: {
