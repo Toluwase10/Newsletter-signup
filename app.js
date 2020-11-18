@@ -44,7 +44,7 @@ app.post("/", function(req, res){
   const options = {
     method: "POST",
     headers: {
-      Authorization: "auth 100e316fe9f80932aeff85c07646c4f9-us2" //api key disabled
+      Authorization: "auth xxxxxxxxxxxxx-us2" //api key disabled
     },
   };
 
